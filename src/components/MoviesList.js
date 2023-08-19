@@ -8,7 +8,7 @@ const MoviesList = ({ moviesdb,setMovieTitle}) => {
     }
   return (
     <>
-      {moviesdb.map((movie,index) => {
+      {moviesdb?.map((movie,index) => {
         return (
           <Box
           key={index}
